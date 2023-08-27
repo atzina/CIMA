@@ -1,42 +1,21 @@
+import './Navbar.css'
+
 function Navbar() {
   return (
     <header className="menu">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-            {/* <img className="icon-nav" src={}></img> */} 
-          </a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/">INICIO</a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="collapse navbar-collapse div-nav"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link nav-link-blue" href="/">
-                  {"Inicio"}
-                </a>
+                <a className="nav-link active" aria-current="page" href="/servicios">SERVICIOS</a>
               </li>
               <li className="nav-item">
-                <a class="nav-link nav-link-yellow" href="/servicios">
-                  {"Servicios"}
-                </a>
-              </li>
-              <li className="nav-item">
-                <a class="nav-link nav-link-pink" href="/contacto">
-                  {"Contacto"}
-                </a>
+                <a className="nav-link active" href="/contacto">CONTACTO</a>
               </li>
             </ul>
           </div>
