@@ -1,6 +1,5 @@
 .navbar {
-    margin: 20px;
-    padding: 20px;
+    padding: 10px;
    
 }
 
@@ -8,9 +7,14 @@
     margin-left: 79px;
 }
 
+.icono-inicio {
+    width: 20%;
+    margin-left: 30px;
+}
+
 .container-fluid {
-    margin: 15px;
-    padding: 15px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .navbar-collapse {
@@ -19,5 +23,5 @@
 }
 
 .navbar a {
-   margin: 10px;
+   margin: 5px;
 }
