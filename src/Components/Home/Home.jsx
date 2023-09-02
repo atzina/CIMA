@@ -7,7 +7,10 @@ function Home() {
   return (
     <>
       <div className='title'>
-        <h1>HOME</h1>
+        <h1>Consultores</h1>
+        <h1>Integrales en</h1>
+        <h1>Materia de Agua y</h1> 
+        <h1>Medio Ambiente</h1>
       </div>
       
       <body>

@@ -19,9 +19,11 @@
 
 .navbar-collapse {
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
+    margin-right: 50px;
 }
 
 .navbar a {
-   margin: 5px;
+   margin: 10px;
+   margin-right: 15px;
 }

@@ -12,20 +12,26 @@ body{
     
 }
 
+/*TITULO DE CIMA*/
+.title {
+    margin:40px;
+}
+.title h1 {
+    color:white;
+    font-size: 50px;
+    font-family: 'Cabin', sans-serif;
+}
+
 .vacio {
     width: 100%;
-    height: 400px;
+    height: 100px; /*aqui se puede ajustar el tamaño de la imagen para que no crezca con el texto*/
 }
 
 .contenedor {
     width: 100%;
     height: 1000px;
-    /* position: relative;
-    display: block; */
-    /* margin: 40vh; /* Espacio para evitar que el contenido se superponga con la imagen */
-    /* padding: 20px; */
     background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para legibilidad */
- /*    transition: margin-top 0.3s ease;*/
+
    
 }
 
@@ -33,5 +39,5 @@ body{
     margin: auto;
     width: 960px;
     height: 1000px;
-    background-color: blue;
+    background-color:aliceblue;
 }
