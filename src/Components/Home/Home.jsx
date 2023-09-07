@@ -17,9 +17,11 @@ function Home() {
         <div className="vacio">
         </div>
         
-        <div className='contenedor'>
-          <div className='contenido'>
-            <h2>Cotenido de abajo</h2>
+        <div className='conteiners'>
+          <div className='wave'>
+            <div className='contenido'>
+              <h2>Cotenido de abajo</h2>
+            </div>
           </div>
           
         </div>

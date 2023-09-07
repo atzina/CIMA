@@ -1,39 +1,47 @@
 .img-agua {
     width: 100%;
+  
+    
 }
 
 body{
-    background-image: url('../../assets/agua_grande.jpg');
+    background-image: url('../../assets/agua-rosa-cortada-osc.jpg');
     top: 0;
     left: 0;
     background-size: 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: -1; /* Colocar detrás del contenido  */
+    
     
 }
 
 /*TITULO DE CIMA*/
 .title {
-    margin:40px;
+    margin:50px;
+    margin-left: 100px;
 }
 .title h1 {
-    color:white;
-    font-size: 50px;
+    color:#faf7f0;
+    font-size: 70px;
     font-family: 'Cabin', sans-serif;
+    font-weight:bolder;
 }
 
 .vacio {
     width: 100%;
-    height: 100px; /*aqui se puede ajustar el tamaño de la imagen para que no crezca con el texto*/
+    height: 40px; /*aqui se puede ajustar el tamaño de la imagen para que no crezca con el texto*/
 }
 
-.contenedor {
+/*hola*/
+
+.conteiners {
     width: 100%;
     height: 1000px;
     background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para legibilidad */
-
-   
 }
+
+
 
 .contenido {
     margin: auto;
