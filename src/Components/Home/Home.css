@@ -45,7 +45,36 @@ body{
 
 .contenido {
     margin: auto;
-    width: 960px;
-    height: 1000px;
-    background-color:aliceblue;
+    width: 100%;
+    height: 500px;
+    background-color:antiquewhite;
+    padding: 40px;
+}
+/* Seccion dos*/ 
+
+.div-seccion-dos {
+    background-color: aliceblue;
+    padding: 30px;
+    padding-left: 50px;
+    display:flex;
+    justify-content:start;
+}
+.imagen-uno{
+    width: 90%;
+    border-radius: 10px;
+}
+.imagen-dos {
+    width: 90%;
+    border-radius:10px;
+}
+.imagen-tres {
+    width: 70%;
+    border-radius:10px;
+}
+
+
+.div-contacto {
+    background-color: aliceblue;
+    height: 500px;
+    width: 100%;
 }
