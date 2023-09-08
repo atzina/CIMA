@@ -41,7 +41,7 @@ body{
     background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para legibilidad */
 }
 
-
+/*Seccion dos*/
 
 .contenido {
     margin: auto;
@@ -50,7 +50,7 @@ body{
     background-color:antiquewhite;
     padding: 40px;
 }
-/* Seccion dos*/ 
+/* Seccion tres (de las tres imagenes) */ 
 
 .div-seccion-dos {
     background-color: aliceblue;
@@ -59,6 +59,8 @@ body{
     display:flex;
     justify-content:start;
 }
+
+
 .imagen-uno{
     width: 90%;
     border-radius: 10px;
@@ -72,6 +74,7 @@ body{
     border-radius:10px;
 }
 
+/*seccion contacto*/ 
 
 .div-contacto {
     background-color: aliceblue;
